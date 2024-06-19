@@ -24,7 +24,7 @@ export function DesignStrategy() {
         tool but a catalyst for transformation, breathing new life into the
         fintech industry. We envision a world where financial interactions are
         seamless, intuitive, and profoundly human. By distilling complexity into
-        elegance, we aim to elevate every user's experience, forging a path
+        elegance, we aim to elevate every user&apos;s experience, forging a path
         toward a more enlightened and connected financial future.
       </p>
     </section>

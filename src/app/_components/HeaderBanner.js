@@ -31,7 +31,8 @@ export default function HeaderBanner() {
         </div>
       </div>
       <p className="text-[24px] md:text-[48px] font-medium z-[4] mt-[-130px] text-center">
-        It's not just a design system it's <br /> a vision brought to life.
+        It&apos;s not just a design system it&apos;s <br /> a vision brought to
+        life.
       </p>
       <p
         className={`text-[14px] md:text-[16px] font-normal  text-center  mt-[24px] ${sfpro.className}`}

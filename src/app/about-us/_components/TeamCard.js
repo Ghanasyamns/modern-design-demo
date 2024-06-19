@@ -6,7 +6,7 @@ export const TeamCard = ({ member }) => (
         <p className=" text-[18px] md:text-[24px]">{member.name}</p>
         <p className="text-[14px] md:text-[16px]">{member.designation}</p>
         <p className="text-[14px] md:text-[18px] opacity-[.6] mt-[12px]">
-          "{member.desc}"
+          &quot;{member.desc}&quot;
         </p>
       </div>
       <div className="mb-3">
