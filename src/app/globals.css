@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+ --backgrounnd-primary:#000000;
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+p , h1, h2, h3, h4, h5, h6 {
+  color: #FFFFFF;
+}
+
+.ff-geist {
+font-family: var(--font-geist-sans) !important;
+}
+.ff-labil{
+  font-family: 'Labil Grotesk',sans-serif !important;
+}
+
+@font-face {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProText-Regular.ttf");
+}
+@font-face {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProText-Medium.ttf");
+}
+@font-face {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 600;
+  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProText-SemiBold.ttf");
+}
+@font-face {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProText-Bold.ttf");
+}
+.sf-pro{
+  font-family: 'SF Pro Text';
+}
+
+.strategy-section{
+  position: relative;
+ 
+}
+.strategy-bg{
+position: absolute;
+height: 300px;
+left: calc(50% - 960px/2);
+top: -30px;
+
+background: #FF4208;
+filter: blur(200px);
+border-radius: 400px;
+opacity: 0.2;
+
+}
+.text-gradient{
+  background: linear-gradient(170.3deg, #FFFFFF 0%, #242424 95.02%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+
+
+
+.blog-card{
+    border: 1px solid rgba(255, 255, 255,.05);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+}
+
+
+
+
+
+
+@media (max-width: 768px){
+  .team-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+  }
+}
+
+
+@media (min-width: 768px){
+  .team-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(560px, 1fr));
+    gap: 16px;
+  }
+}
