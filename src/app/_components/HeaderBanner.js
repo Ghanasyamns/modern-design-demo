@@ -4,6 +4,7 @@ import skull from "../../../public/assets/header-skull.png";
 import localFont from "next/font/local";
 import { Button } from "@mui/material";
 import { LearnMoreIocn, PlayButton } from "./icons/CustomIcons";
+import { OpacityTextAnime } from "@/components/FramerComponent";
 const sfpro = localFont({
   src: "../(styles)/fonts/SF-Pro-Display-Regular.ttf",
 });
@@ -30,10 +31,14 @@ export default function HeaderBanner() {
           />
         </div>
       </div>
-      <p className="text-[24px] md:text-[48px] font-medium z-[4] mt-[-130px] text-center">
-        It&apos;s not just a design system it&apos;s <br /> a vision brought to
-        life.
-      </p>
+      <div className="z-[4]">
+        <OpacityTextAnime>
+          <p className="text-[24px] md:text-[48px] font-medium  mt-[-130px] text-center">
+            It&apos;s not just a design system it&apos;s <br /> a vision brought
+            to life.
+          </p>
+        </OpacityTextAnime>
+      </div>
       <p
         className={`text-[14px] md:text-[16px] font-normal  text-center  mt-[24px] ${sfpro.className}`}
       >

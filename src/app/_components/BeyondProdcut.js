@@ -2,6 +2,7 @@ import localFont from "next/font/local";
 const sfpro = localFont({
   src: "../(styles)/fonts/SF-Pro-Display-Regular.ttf",
 });
+import { BouncingComponent } from "@/components/FramerComponent";
 export function BeyondProduct() {
   return (
     <section className="flex flex-col items-center strategy-section mt-[100px] ">
@@ -21,8 +22,10 @@ export function BeyondProduct() {
         <div className="absolute  left-[30vw] bottom-[-220px]  z-[3]">
           <BeyondProductBg4 />
         </div>
-        <div className="absolute left-[25vw] md:left-[29vw] top-[100px] md:top-[10px]  z-[6]">
-          <BodyBg />
+        <div className="absolute left-[25vw] md:left-[29vw] top-[100px] md:top-[10px]   z-[6]">
+          <BouncingComponent>
+            <BodyBg />
+          </BouncingComponent>
         </div>
         <div className="absolute  left-9 md:left-[30vw] top-[-10px]  z-[5]">
           <h3 className="text-[24px] md:text-[36px]">Beyond Product</h3>
