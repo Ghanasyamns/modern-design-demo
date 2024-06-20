@@ -34,7 +34,7 @@ export default function Paragraph({ paragraph }) {
 const Word = ({ children, progress, range }) => {
   const opacity = useTransform(progress, range, [0, 1]);
   return (
-    <span className="relative">
+    <span className="relative mr-[10px]">
       <span className="absolute opacity-[.2]">{children}</span>
       <motion.span style={{ opacity: opacity }}>{children}</motion.span>
     </span>
