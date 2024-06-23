@@ -44,8 +44,11 @@ export default function HeaderImages() {
   const keyframes = useMemo(
     () =>
       Promise.all(
-        [...new Array(41)].map((_, i) =>
-          createImage(`/assets/image_seq/ezgif-frame-${i + 1}.jpg`)
+        [...new Array(58)].map((_, i) =>
+          createImage(`
+          /assets/image_seq/Web_002_Low res_${i
+            .toString()
+            .padStart(5, "0")}.webp`)
         )
       ),
     []
