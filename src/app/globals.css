@@ -58,7 +58,7 @@ font-family: var(--font-geist-sans) !important;
   position: relative;
  
 }
-.strategy-bg{
+/* .strategy-bg{
 position: absolute;
 height: 300px;
 left: calc(50% - 960px/2);
@@ -69,7 +69,7 @@ filter: blur(200px);
 border-radius: 400px;
 opacity: 0.2;
 
-}
+} */
 .text-gradient{
   background: linear-gradient(170.3deg, #FFFFFF 0%, #242424 95.02%);
   -webkit-background-clip: text;

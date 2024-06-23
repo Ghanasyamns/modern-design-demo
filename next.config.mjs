@@ -1,8 +1,10 @@
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {};
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  webpack: (config) => {
+    config.resolve.alias.canvas = false;
+    return config;
+  },
+  crossOrigin: "anonymous",
+};
 
-// export default nextConfig;
-
-import withVideos from "next-videos";
-
-export default withVideos();
+export default nextConfig;

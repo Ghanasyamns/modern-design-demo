@@ -178,7 +178,7 @@ const RedPillBg = () => (
         y2="266.045"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#F64C29" />
+        <stop stopColor="#F64C29" />
         <stop offset="0.716129" />
       </linearGradient>
       <linearGradient
@@ -189,7 +189,7 @@ const RedPillBg = () => (
         y2="91.0075"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#F64C29" />
+        <stop stopColor="#F64C29" />
         <stop offset="0.716129" />
       </linearGradient>
     </defs>

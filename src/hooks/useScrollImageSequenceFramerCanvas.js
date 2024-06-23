@@ -13,7 +13,6 @@ const useScrollImageSequenceFramerCanvas = ({
   },
 }) => {
   const canvasRef = useRef(null);
-
   const { scrollYProgress } = useScroll(scrollOptions);
   const progress = useSpring(scrollYProgress, springConfig);
 
@@ -25,12 +24,14 @@ const useScrollImageSequenceFramerCanvas = ({
 
   const renderImage = useCallback(
     (progress) => {
-      const constraint = (n, min = 0, max = keyframes.length - 1) =>
-        Math.min(Math.max(n, min), max);
-      onDraw(
-        keyframes[constraint(Math.round(keyframes.length * progress))],
-        canvasRef.current.getContext("2d")
-      );
+      keyframes.then((frames) => {
+        const constraint = (n, min = 0, max = frames.length - 1) =>
+          Math.min(Math.max(n, min), max);
+        onDraw(
+          frames[constraint(Math.round(frames.length * progress))],
+          canvasRef.current.getContext("2d")
+        );
+      });
     },
     [keyframes]
   );
@@ -48,9 +49,9 @@ const useScrollImageSequenceFramerCanvas = ({
   }, [progress, renderImage, resizeCanvas]);
 
   useEffect(() => {
-    keyframes[0].onload = () => {
-      onDraw(keyframes[0], canvasRef.current.getContext("2d"));
-    };
+    keyframes.then((frames) => {
+      onDraw(frames[0], canvasRef.current.getContext("2d"));
+    });
   }, [keyframes]);
 
   useMotionValueEvent(progress, "change", renderImage);
