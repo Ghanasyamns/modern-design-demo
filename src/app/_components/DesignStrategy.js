@@ -1,7 +1,7 @@
 import Paragraph from "../../components/Word";
 export function DesignStrategy() {
   return (
-    <section className="flex flex-col items-center strategy-section mt-[100px] md:mt-[230px]">
+    <section className="flex flex-col items-center strategy-section mt-[100px] md:mt-[150px]">
       <div className="relative ">
         <div className="strategy-bg w-[400px] md:w-[960px]"></div>
       </div>
