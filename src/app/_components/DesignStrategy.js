@@ -14,7 +14,7 @@ export function DesignStrategy() {
       </p>
       <Paragraph
         paragraph="
-        At y.design, we are a small collective with a grand ambition: to
+        At M design, we are a small collective with a grand ambition: to
         transcend the traditional confines of the financial domain through the
         art and science of design. Our token-based design system is not just a
         tool but a catalyst for transformation, breathing new life into the

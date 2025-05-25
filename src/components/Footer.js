@@ -20,8 +20,8 @@ function Footer() {
         >
           Back To Top
         </Button>
-        <Button variant="text">HelloYubi@go-yubi.com</Button>
-        <Button variant="text">© 2022 Yubi</Button>
+        <Button variant="text">Hello@d-design.com</Button>
+        <Button variant="text">© 2022 D Design</Button>
       </div>
     </section>
   );

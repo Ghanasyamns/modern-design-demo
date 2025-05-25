@@ -19,7 +19,7 @@ filter: blur(200px); */}
       <section className="max-w-[630px] mx-auto mt-[100px] px-4">
         <h1 className="text-[18px] md:text-[32px] mb-[24px]">The Vision</h1>
         <p style={sfpro.style} className="text-[18px] md:text-[24px]">
-          At yubi, our vision is to revolutionize the fintech domain through
+          At D design, our vision is to revolutionize the fintech domain through
           relentless innovation and simplicity. By leveraging our cutting-edge
           design system, we aim to transform traditional financial processes,
           making them more efficient and accessible. Our commitment to
@@ -61,91 +61,91 @@ export default AboutUs;
 const TeamList = [
   {
     image: "",
-    name: "Anandhu Suresh",
+    name: "Drake Thomas",
     designation: "Designer",
     desc: "Design at the speed of thought, crafted with precision.",
     linkedin: "",
   },
   {
     image: "",
-    name: "Ashid Shaji",
+    name: "John Philip",
     designation: "Sr Designer",
     desc: "Driven by vision, fueled by diligence",
     linkedin: "",
   },
   {
     image: "",
-    name: "Deepak Surya",
+    name: "Joel Mathew",
     designation: "Sr Engineer",
     desc: "Code forged with dedication, building tomorrow's possibilities",
     linkedin: "",
   },
   {
     image: "",
-    name: "Dinesh Kailash Kumar",
+    name: "James ",
     designation: "VP Engineering",
     desc: "Guiding the future with visionary",
     linkedin: "",
   },
   {
     image: "",
-    name: "Nandhakuamr Vijayakumar",
+    name: "Julie Fernandez",
     designation: "Engineer",
     desc: "Coding solutions to shape a smoother tomorrow, one problem at a time",
     linkedin: "",
   },
   {
     image: "",
-    name: "Pramod Kabadi",
+    name: "Ram Prakash",
     designation: "Design Specialist",
     desc: "Redefining excellence, one design at a time, setting the standard for tomorrow",
     linkedin: "",
   },
   {
     image: "",
-    name: "Ramashish Baranwal",
+    name: "Ameer Salim",
     designation: "Director Engineer",
     desc: "Leading with unwavering focus, engineering the path to success with steadfast resolve.",
     linkedin: "",
   },
   {
     image: "",
-    name: "Santosh Hegde",
+    name: "Sarah M",
     designation: "Vice President Design",
     desc: "Sculpting tomorrow's design landscape with visionary fervor..",
     linkedin: "",
   },
   {
     image: "",
-    name: "Sivadas N",
+    name: "Therese Mathew",
     designation: "Sr Engineer",
     desc: "Embracing challenges, engineering efficiency, and optimizing for excellenc",
     linkedin: "",
   },
   {
     image: "",
-    name: "Sowmiya Natarajan",
+    name: "Vaibhav Sharma",
     designation: "Sr Designer",
     desc: "With dedication and methodical precision, crafting designs that stand the test of time",
     linkedin: "",
   },
   {
     image: "",
-    name: "Subin C S",
+    name: "Sam Thomas",
     designation: "Lead Design",
     desc: "Forge the vision, chart the course, design lead guiding innovation's force",
     linkedin: "",
   },
   {
     image: "",
-    name: "Victor Vincent",
+    name: "Karl pe",
     designation: "Priciple Engineer",
     desc: "Pioneering vision into reality, the dev lead steers execution with foresight and finesse",
     linkedin: "",
   },
   {
     image: "",
-    name: "Yash Chaudhary",
+    name: "Frank Thomas",
     designation: "Engineer",
     desc: " forging tomorrow's code with relentless dedication.",
     linkedin: "",
