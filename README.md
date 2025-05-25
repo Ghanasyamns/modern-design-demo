@@ -1,1 +1,1 @@
-Preview : https://yubi-design-demo.vercel.app/
+Preview : https://moredrn-design.vercel.app/
