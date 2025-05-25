@@ -19,7 +19,7 @@ filter: blur(200px); */}
       <section className="max-w-[630px] mx-auto mt-[100px] px-4">
         <h1 className="text-[18px] md:text-[32px] mb-[24px]">The Vision</h1>
         <p style={sfpro.style} className="text-[18px] md:text-[24px]">
-          At D design, our vision is to revolutionize the fintech domain through
+          At M design, our vision is to revolutionize the fintech domain through
           relentless innovation and simplicity. By leveraging our cutting-edge
           design system, we aim to transform traditional financial processes,
           making them more efficient and accessible. Our commitment to

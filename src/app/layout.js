@@ -9,8 +9,8 @@ const labilGrotesk = localFont({
   src: "./(styles)/fonts/LabilGrotesk-Medium.ttf",
 });
 export const metadata = {
-  title: "D Design",
-  description: "D Design",
+  title: "M Design",
+  description: "M Design",
 };
 
 export default function RootLayout({ children }) {
